@@ -1,0 +1,9 @@
+<!DOCTYPE suit SYSTEM "http://testng.org/testng-1.0.dtd">
+<suit name="fbtest" parallel="classes" thread-count="2">
+<test name="login test" >
+<classes>
+<class name ="ParallelThread.fbtest1"/>
+<class name ="parallelThread.fbtest2"/>
+</classes>
+</test>
+</suit>

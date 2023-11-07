@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="gmtest" thread-count="2" parallel="classes" >
+<test name="login">
+<classes>
+<class name="qxpProj.gmailtest1"/>
+<class name="qxpProj.gmailtest2"/>
+</classes>
+
+</test>
+
+
+</suite>

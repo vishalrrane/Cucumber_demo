@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [fbtest]" parallel="classes">
+  <test thread-count="2" name="login(failed)" parallel="classes">
+    <classes>
+      <class name="qxpProj.fbtest1">
+        <methods>
+          <include name="test2"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- qxpProj.fbtest1 -->
+      <class name="qxpProj.fbtest2">
+        <methods>
+          <include name="test"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- qxpProj.fbtest2 -->
+    </classes>
+  </test> <!-- login(failed) -->
+</suite> <!-- Failed suite [fbtest] -->
