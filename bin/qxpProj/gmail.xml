@@ -1,9 +1,0 @@
-<!DOCTYPE suit SYSTEM "http://testng.org/testng-1.0.dtd">
-<suit name="gmailtest" parallel="classes" thread-count="2">
-<test name="login test" >
-<classes>
-<class name ="qxpProj.gmailtest1"/>
-<class name ="qxpProj.gmailtest2"/>
-</classes>
-</test>
-</suit>
